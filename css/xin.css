@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	font-family: "苹方";
+}
+.toptab{
+	width: 100%;
+	/*横向多出的部分隐藏*/
+	/*overflow-x: hidden;*/
+	height: 0.88rem;
+	background: #74bc77;
+	/*渐变*/
+	/*background: linear-gradient(left,red,blue);*/
+	/*固定定位：相对于窗口去定位*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*层级：定位中才会遇到*/
+	z-index: 2;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+	text-align: center;
+}
+.tu{
+	width: 100%;
+	height: 3.33rem;
+	/*background: #000;*/
+	margin-top: 0.88rem;
+}
+.tu img{
+	height: 2.7rem;
+	margin-top: 0.32rem;
+	margin-left: 2.76rem;
+}
+.box{
+	width: 7.02rem;
+	height: 7.24rem;
+	/*background: yellow;*/
+	margin-left: 0.24rem;
+	margin-top: 0.1rem;
+}
+.box .box1{
+	width: 3.35rem;
+	height: 3.48rem;
+	background: #b1e8b3;
+	border-radius: 0.2rem;
+	margin-right: 0.3rem;
+	float: left;
+}
+.box .box1 img{
+	height: 2.03rem;
+	margin-top: 0.7rem;
+	margin-left:0.34rem;
+	text-align: center;
+}
+.box .box2{
+	width: 3.35rem;
+	height: 3.48rem;
+	background: #b1e8d0;
+	border-radius: 0.2rem;
+	float: left;
+}
+.box .box2 img{
+	height: 2.03rem;
+	margin-top: 0.7rem;
+	margin-left:0.4rem;
+	/*text-align: center;*/
+}
+.box .box3{
+	width: 3.35rem;
+	height: 3.48rem;
+	background: #b1d0e8;
+	border-radius: 0.2rem;
+	margin-right: 0.3rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.box .box3 img{
+	height: 2.03rem;
+	margin-top: 0.7rem;
+	margin-left:0.9rem;
+	/*text-align: center;*/
+}
+.box .box4{
+	width: 3.35rem;
+	height: 3.48rem;
+	background: #b1c6e8;
+	border-radius: 0.2rem;
+	float: left;
+	margin-top: 0.3rem;
+}
+.box .box4 img{
+	height: 2.03rem;
+	margin-top: 0.7rem;
+	margin-left:0.9rem;
+	/*text-align: center;*/
+}
+.bottomtab{
+	width: 100%;
+	height: 0.98rem;
+	background: #e3f5e3;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.bottomtab .boxx{
+	width: 20%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	font-size: 0.24rem;
+	/*border: 0.02rem solid #000;*/
+}
+.bottomtab .boxx a:nth-child(1){
+	width: 0.5rem;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	margin-left: 0.5rem;
+}
+.bottomtab .box:nth-child(4){
+	margin-left: -0.1rem;
+}
+.bottomtab .boxx .sy{
+	color: #74bc77;
+}
+.bottomtab .boxx a img{
+	width: 0.55rem;
+	height: 0.55rem;
+	float: left;
+	margin-top: 0.1rem;
+	/*margin-left: 0.71rem;*/
+}
+.bottomtab .boxx a:nth-child(2){
+	font-size: 0.24rem;
+	color: #abd8ad;
+	margin-left: -0.48rem;
+	margin-top: 0.6rem;
+	float: left;
+}
+.bottomtab .boxx span{
+	color: #74bc77;
+	font-size: 0.24rem;
+}
+.bottomtab .boxx:nth-child(3) img{
+	margin-top: -0.5rem;
+	width: 1.5rem;
+}

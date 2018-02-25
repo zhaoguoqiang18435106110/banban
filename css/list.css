@@ -1,0 +1,254 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	font-family: "苹方";
+}
+.toptab{
+	width: 100%;
+	/*横向多出的部分隐藏*/
+	/*overflow-x: hidden;*/
+	height: 1.71rem;
+	background: #74bc77;
+	/*渐变*/
+	/*background: linear-gradient(left,red,blue);*/
+	/*固定定位：相对于窗口去定位*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*层级：定位中才会遇到*/
+	z-index: 2;
+}
+.toptab .position1{
+	width: 100%;
+	height: 0.88rem;
+	/*background: red;*/
+}
+.toptab .position1 .left{
+	width: 0.88rem;
+	height: 100%;
+	/*background: yellow;*/
+	float: left;
+}
+.toptab .position1 .left img{
+	margin-top: 0.24rem;
+	height: 0.4rem;
+	margin-left: 0.24rem;
+	float: left;
+	/*padding-top: 0.24rem;*/
+}
+.toptab .position1 .right{
+	width: 6.62rem;
+	height: 100%;
+	/*background: blue;*/
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	padding-left: 2.54rem;
+	line-height: 0.88rem;
+	box-sizing:border-box;
+}
+.toptab .position2{
+	width: 7.02rem;
+	height: 0.61rem;
+	background: #fff;
+	margin-left: 0.24rem;
+	border-radius: 0.4rem;
+}
+.toptab .position2 .box{
+	width: 2.21rem;
+	height: 0.44rem;
+	background: #74bc77;
+	margin-left: 0.1rem;
+	float: left;
+	border-radius: 0.2rem;
+	margin-top: 0.08rem;
+}
+.toptab .position2 .box:nth-child(2){
+	background: #fff;
+}
+.toptab .position2 .box:nth-child(3){
+	background: #fff;
+}
+.toptab .position2 .box a{
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	float: left;
+	color: #fff;
+	margin-left: 0.8rem;
+}
+.toptab .position2 .box .hx{
+	color: #74bc77;
+}
+.toptab .position2 .box .fg{
+	color: #74bc77;
+}
+.comment .box{
+	width: 7.02rem;
+	height: 7.1rem;
+	background: #fff;
+	margin-top: 1.95rem;
+	margin-left: 0.24rem;
+	box-shadow: 0 0 0.1rem 0.03rem rgba(131,209,134,0.3)
+}
+.comment .box .tu{
+	width: 6.82rem;
+	height: 5rem;
+	background: yellow;
+	margin-left: 0.1rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.comment .box .tu img{
+	width: 6.82rem;
+	height: 5rem; 
+}
+.comment .design{
+	width: 0.88rem;
+	height: 0.88rem;
+	border-radius: 50%;
+	background: #000;
+	float: left;
+	margin-top: -0.6rem;
+	margin-left: 3.30rem;
+}
+.comment .design img{
+	width: 0.88rem;
+	height: 0.88rem;
+	float: left;
+}
+.comment .dname{
+	width: 1rem;
+	height: 0.3rem;
+	/*background: red;*/
+	float: left;
+	margin-top: 0.34rem;
+	margin-left: -0.95rem;
+	font-size: 0.24rem;
+	color: #d1d1d1;
+}
+.comment .des{
+	width: 6.82rem;
+	height: 0.5rem;
+	/*background: red;*/
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+	box-sizing:border-box;
+	border-bottom: 1px solid #e1e1e1;
+	font-size: 0.3rem;
+	color: #595a5b;
+}
+.comment .share{
+	width: 6.82rem;
+	height: 0.44rem;
+	/*background: yellow;*/
+	float: left;
+	margin-left: 0.1rem;
+	margin-top: 0.15rem;
+}
+.comment .share .zan{
+	width: 1rem;
+	height: 0.44rem;
+	/*background: blue;*/
+	float: left;
+}
+.comment .share .zan .left{
+	width: 0.4rem;
+	height: 0.4rem;
+	/*background: red;*/
+	float: left;
+}
+.comment .share .zan .left img{
+	width: 0.4rem;
+	float: left;
+}
+.comment .share .zan .shu{
+	width: 0.4rem;
+	height: 0.44rem;
+	/*background: white;*/
+	float: left;
+	color: #74bc77;
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin-left: 0.1rem;
+}
+.comment .share .cang{
+	width: 1rem;
+	height: 0.40rem;
+	/*background: #000;*/
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.02rem;
+}
+.comment .share .cang .left{
+	width: 0.4rem;
+	height: 0.4rem;
+	/*background: red;*/
+	float: left;
+}
+.comment .share .cang .left img{
+	width: 0.4rem;
+	float: left;
+}
+.comment .share .cang .shu{
+	width: 0.4rem;
+	height: 0.44rem;
+	/*background: white;*/
+	float: left;
+	color: #74bc77;
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin-left: 0.1rem;
+}
+.comment .share .xiaoxi{
+	width: 1rem;
+	height: 0.4rem;
+	/*background: #000;*/
+	float: left;
+	margin-left: 0.15rem;
+	margin-top: 0.03rem;
+
+}
+.comment .share .xiaoxi .left{
+	width: 0.4rem;
+	height: 0.4rem;
+	/*background: red;*/
+	float: left;
+}
+.comment .share .xiaoxi .left img{
+	width: 0.4rem;
+	float: left;
+}
+.comment .share .xiaoxi .shu{
+	width: 0.4rem;
+	height: 0.44rem;
+	/*background: white;*/
+	float: left;
+	color: #74bc77;
+	font-size: 0.24rem;
+	line-height: 0.44rem;
+	margin-left: 0.1rem;
+}
+.comment .share .zhuan{
+	width: 0.44rem;
+	height: 0.44rem;
+	/*background: #000;*/
+	float: right;
+	margin-left: 0.15rem;
+}
+.comment .share .zhuan img{
+	width: 0.4rem;
+	float: left;
+}
+.comment .box:nth-child(2){
+	margin-top: 0.24rem;
+}
+.comment .box:nth-child(3){
+	margin-top: 0.24rem;
+}
